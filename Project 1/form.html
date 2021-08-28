@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title><h2>Form</title></h2>
+        <style type="text/css">
+        label{
+            width:150px;
+            display:inline-block;
+            }
+            </style>
+
+        
+        <link rel="stylesheet" href="css/style.css"/>
+
+    </head>
+
+    <body background="https://wallpaperaccess.com/full/449903.jpg">
+    <h1 style="text-align: center;">FORM</h1>
+     <form action="results.html" method="GET">
+        <h4 style="color:rgb(12, 12, 12);">(*) Marked Fields are mandatory.</h4></p>
+    <p>*First Name:<input id="fname" type="text" size="65" name="First Name" required /></p>
+    <br />
+    <p>*Middle Name: <input id="mname" type="text" size="65" name="Middle Name" required /></p>
+    <br />
+    <p>*Last Name: <input id="lname" type="text" size="65" name="Last Name" required /></p>
+    <br />           
+    <p>*Address:<br><br> <input id="l1" type="text" size="65" name="Address Line 1" placeholder="Line 1(Door No., Street Name)" required /></p>
+    <input type="text" id="l2" size="65" placeholder="Line 2(Area Name)" name="Address Line 2" required /></p>
+    <select id="country" type="text" value="" name="Country">
+        <option value="India">India</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Japan">Japan</option>
+        <option value="China">China</option>
+        <option value="Russia">Russia</option>
+        </select>
+        <select id="state" type="text" value="" name="State" >
+        <option value="TamilNadu">TamilNadu</option>
+        <option value="Kabul">Kabul</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Beijing">Beijing</option>
+        <option value="Moscow">Moscow</option>
+        </select>
+        <select id="city" type="text" value="" name="City" >
+        <option value="Chennai">Chennai</option>
+        <option value="Kabul">Kabul</option>
+        <option value="Shinjuku">Shinjuku</option>
+        <option value="Beijing">Beijing</option>
+        <option value="Moscow">Moscow</option>
+        </select></p>
+        <p><input id="pin" type="text" size="65" placeholder="Zipcode" name="Zipcode" required /></p>
+    <br />
+    <p>*Email: <input id="email" type="text" size="65" placeholder="Eg; abcd@xyz.com" name="EMail" required /></p>
+    <br />
+    <p>*Phone Number: <input id="phno" type="text" size="65" name="Password" required /></p>
+    <br />
+    <p>*Height(Ft): <input id="height" type="text" size="15" placeholder="Eg; 5'10" name="Height" required /><p><br>
+    <p>*Weight(Kg): <input id="weight" type="text" size="15" name="Weight" required /></p><br>
+    <br />
+    <div class="button">
+        <input type="submit" value="Submit">
+      </div>
+      </form>
+      </body>
+      </html>

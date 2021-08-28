@@ -1,0 +1,32 @@
+body {
+    font-family: lucida, monospace;
+  }
+  
+  input {
+      border-radius: 5px;
+      padding: 5px;
+  }
+  
+  select {
+    border-radius: 5px;
+    padding: 5px;
+    border: solid black 2px;
+}
+  
+  div.button {
+      text-align: right;
+  }
+  
+  a {
+      text-decoration: none;
+      color: #e51;
+  }
+  
+  form { 
+      width: 480px; 
+      margin: auto;
+      padding: 50px; 
+      border: solid black 3px;	
+      border-radius: 5px;  
+      box-shadow: 5px 5px 2px rgb(24, 23, 23);
+  }
