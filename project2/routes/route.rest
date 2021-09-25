@@ -1,5 +1,0 @@
-GET http://localhost:3000/project
-
-###
-
-GET http://localhost:3000/project/15
